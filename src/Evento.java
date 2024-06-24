@@ -22,6 +22,6 @@ public class Evento {
         return "Evento{" +
                 "nome='" + nome + '\'' +
                 ", atracao='" + atracao + '\'' +
-                '}';
+                "} \n ";
     }
 }
