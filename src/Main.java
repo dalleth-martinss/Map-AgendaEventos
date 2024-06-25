@@ -11,12 +11,14 @@ public class Main {
         agendaEventos.adicionarEvento(LocalDate.of(2023, 10, 18), "Evento 3", "Atração 3");
         agendaEventos.adicionarEvento(LocalDate.of(2022, 4, 14), "Evento 4", "Atração 4");
         agendaEventos.adicionarEvento(LocalDate.of(2021, 3, 13), "Evento 5", "Atração 5");
+        agendaEventos.adicionarEvento(LocalDate.of(2023, 11, 18), "Evento 6", "Atração 6");
+        agendaEventos.adicionarEvento(LocalDate.of(2022, 5, 14), "Evento 7", "Atração 7");
+        agendaEventos.adicionarEvento(LocalDate.of(2021, 2, 13), "Evento 8", "Atração 8");
 
         agendaEventos.exibirAgenda();
 
          agendaEventos.obterProximoEvento();
 
 
-
-    }
+     }
 }

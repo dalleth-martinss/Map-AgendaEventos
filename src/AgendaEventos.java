@@ -19,7 +19,6 @@ public class AgendaEventos {
         System.out.println(eventosTreeMap);
     }
     public void obterProximoEvento(){
-
         LocalDate dataAtual = LocalDate.now();
         LocalDate proximaData = null;
         Evento proximoEvento = null;
@@ -35,7 +34,4 @@ public class AgendaEventos {
         }
 
     }
-
-
-
 }
